@@ -231,6 +231,9 @@ nav.navbar {
     background-color: #fcfcfc;
 }
 
+.fondo-color{
+    background-color: #fcfcfc;
+}
 
 /* Fondo nosotros*/
 .fondo-nosotros{
@@ -403,3 +406,38 @@ nav.navbar {
 .galeria-imagen:hover{
     filter: brightness(100%);
 }
+
+
+
+
+:root{
+    --dark-gris: #EFEFEF;
+
+}
+/*Formulario*/
+
+.form-cont{
+    margin-top: 65px;
+}
+
+.form-control, .boton{
+    min-height: 2.525rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+.color-row{
+    background-color: #F9FAFF;
+    min-height: 776px;
+}
+.columna-foto{
+    background-image: url(../img/fondo-login.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 70px;
+}
+
+
+
+
+
