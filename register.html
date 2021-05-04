@@ -31,7 +31,7 @@
 
     </head>
 
-    <body>
+    <body class="bg-dark">
 
         <!--Barra de navegacion-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
@@ -58,55 +58,76 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="nosotros.html#nosotros"><i class="fas fa-at"></i> Sobre Nosotros</a>
-                    </li> 
+                    </li>  
                     <li class="nav-item">
                       <a class="nav-link" href="Login.html"><i class="fas fa-sign-in-alt"></i></i> Iniciar Sesión</a>
-                    </li>            
+                    </li>          
                   </ul>
                 </div>
             </div>
         </nav>
 
-        <!--Video y mas videos-->
-        <section id="video">
-            <div class="container-fluid fondo-video">
-                <div class="container-md caja-video">
+        <!--Register-->
+        <section id="register">
+          <div class="form-cont container-fluid">
+            <div class="row color-row">
 
-                    <!--Titulo de videojuego-->
-                    <div class="titulo">     
-                        <br><br><br>
-                        <h3 class="nombre-videojuego-video">Call of Duty: Warzone</h3>
-                    </div>
-                    
-                    <!--Video-->
-                    <div>
-                        <video class="video-seleccionado"src="videos/vr1.mp4" controls preload="auto">
-                    </div>
+              <div class="columna-foto2 col-lg-6"> 
+              </div>  
 
-                    <!--Informacion video-->
-                    <div>
-                        <div class="info-video">
-                            <h3 class="titulo-video">¡Al Abordaje Muchachos!</h3> <a href="#Perfil!" class="nombre-usuario">por HunterTV</a>
-                            <p class="descripcion-video">Espacio para descripcion de video.</p>
-                        </div>
-                    </div>
+              <div class="col-lg-6 d-flex flex-column">
 
-                    <!--Seccion de mas videos-->
-                    <div class="mas-videos">
-                        <h4>Mas Videos</h4>
-                        <a href="galeria-videos.html#galeria-videos" class="enlace-ver-mas-pagina-videos float-right">Ver mas</a>
-                        <div class="card-columns">
-                            <div class="card rounded-0"><a href="#v2!"><video autoplay loop  muted preload src="videos/vr2.mp4" class="card-video card-img-top rounded-0"></a></div>
-                            <div class="card rounded-0"><a href="#v3!"><video autoplay loop  muted preload src="videos/vr3.mp4" class="card-video card-img-top rounded-0"></a></div>
-                            <div class="card rounded-0"><a href="#v4!"><video autoplay loop  muted preload src="videos/vr4.mp4" class="card-video card-img-top rounded-0"></a></div>
-                            <div class="card rounded-0"><a href="#v5!"><video autoplay loop  muted preload src="videos/vr5.mp4" class="card-video card-img-top rounded-0"></a></div>
-                            <div class="card rounded-0"><a href="#v6!"><video autoplay loop  muted preload src="videos/vr6.mp4" class="card-video card-img-top rounded-0"></a></div>
-                            <div class="card rounded-0"><a href="#v7!"><video autoplay loop  muted preload src="videos/vr7.mp4" class="card-video card-img-top rounded-0"></a></div>
-                        </div>
-                    </div>
-                </div>
+                <div class="px-lg-5 py-lg-4 p-4 w-100 mt-4 align-self-center">
+
+                  <h1 class="text-center text-dark font-weight-bold mb-4">Registrarse</h1> <br>
+
+                  <form action="index.html" method="POST" name="datos-register" id="datos-register">
+                    <div class="formulario align-items-center">
+
+                      <div class="mb-3">
+                        <label for="reg-nom-usu"> Nombre Usuario <span class="text-danger">*</span> </label>
+                        <input type="text" class="form-control mb-2" id="reg-nom-usu" name="reg-nom-usu" value="" placeholder="Nombre Usuario"><br>
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="reg-cor-ele"> Correo Electrónico <span class="text-danger">*</span> </label>
+                        <input type="text" class="form-control mb-2" id="reg-correo-elec" name="reg-correo-elec" value="" placeholder="Correo Electrónico">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="reg-cor-ele"> Confirmar Correo Electrónico <span class="text-danger">*</span> </label>
+                        <input type="text" class="form-control mb-2" id="reg-conf-correo-elec" name="reg-conf-correo-elec" value="" placeholder="Confirmar Correo Electrónico"><br>
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="reg-pas"> Contraseña <span class="text-danger">*</span> </label>
+                        <input type="password" class="form-control mb-2" id="reg-pass" name="reg-pass" value="" placeholder="Contraseña">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="reg-pas"> Confirmar Contraseña <span class="text-danger">*</span> </label>
+                        <input type="password" class="form-control mb-2" id="reg-conf-pass" name="reg-conf-pass" value="" placeholder="Confirmar Contraseña"><br>
+                      </div>
+
+                      <div class="mb-3 pb-3">
+                        <label for="reg-num-tel"> Numero Teléfono </label>
+                        <input type="text" class="form-control mb-2" id="num-tel" name="num-tel" value="" placeholder="Numero Teléfono"><br>
+                      </div>
+
+                      <div class="mb-2 text-center">
+                        <input class="boton btn btn-dark btn-lg bg-dark w-100 mb-2" type="submit" value="Registrarse">
+                      </div>
+
+                    </div>  
+                  </form>
+                  
+                </div>  
+              </div>
             </div>
+          </div>  
         </section>
+
+
 
         <!--Pie de Pagina-->
         <footer id="piepagina" class="bg-dark text-center text-white">

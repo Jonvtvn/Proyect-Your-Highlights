@@ -415,14 +415,12 @@ nav.navbar {
 
 }
 /*Formulario*/
-
 .form-cont{
     margin-top: 65px;
 }
 
 .form-control, .boton{
     min-height: 2.525rem;
-    max-width: 500px;
     margin: auto;
 }
 
@@ -436,8 +434,36 @@ nav.navbar {
     background-position: center;
     min-height: 70px;
 }
+.columna-foto2{
+    background-image: url(../img/fondo-register.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 70px;
+}
 
 
 
 
 
+.formulario{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+@media only screen and (max-width: 1700px) {
+    .formulario{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+.cont-formulario{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 990px) {
+    .cont-formulario{
+        margin-top: 0px;
+    }
+}
