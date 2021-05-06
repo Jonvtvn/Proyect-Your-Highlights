@@ -31,7 +31,7 @@
 
     </head>
 
-    <body class="bg-dark">
+    <body>
 
         <!--Barra de navegacion-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
@@ -57,77 +57,74 @@
                       <a class="nav-link" href="index.html#capturas"><i class="fas fa-image"></i> Capturas</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="nosotros.html#nosotros"><i class="fas fa-at"></i> Sobre Nosotros</a>
-                    </li>  
+                      <a class="nav-link" href="#nosotros"><i class="fas fa-at"></i> Sobre Nosotros</a>
+                    </li> 
                     <li class="nav-item">
-                      <a class="nav-link" href="Login.html"><i class="fas fa-sign-in-alt"></i></i> Iniciar Sesión</a>
-                    </li>          
+                      <a class="nav-link" href="#Perfil!"><i class="fas fa-user"></i>  SadNess</a>
+                    </li>            
                   </ul>
                 </div>
             </div>
         </nav>
 
-        <!--Register-->
-        <section id="register">
-          <div class="form-cont container-fluid">
-            <div class="row color-row">
+       <!--Seccion de editar perfil-->
+        <section>
+           <div class="form-edit-perfil container-fluid">
+                <div class="form-container-blanco container-md align-items-center d-flex flex-column text-dark">
+                    <div class="tit_mod_per font-weight"> 
+                        <h2>Modificar Perfil</h2>
+                    </div>    
+                    <form action="index.html" method="POST" name="modificar_perfil">
+                        <div class="formulario_mod_per">                           
+                            <div class="area form-img text-center">
+                                <img class="imagen-perfil" src="img/imagen-logo.jpg" alt="" width="200" height="200">
+                            </div>
 
-              <div class="columna-foto2 col-lg-6"> 
-              </div>  
+                            <div class="area form-file edit_image mt-4 ">
+                                <div class="edi_img_per text-center">
+                                    <label for="img_per">Cambiar Imagen</label><br>
+                                    <input type="file" class="edi_img" id="edi_img" accept="image/*">                               
+                                </div>
+                            </div> 
 
-              <div class="col-lg-6 d-flex flex-column">
+                            <div class="area form-nom-usu">
+                                <div>
+                                    <label for="edit-nom-usu">Nombre Usuario</label>  
+                                    <input type="text" class="form-control" id="nom-usu-edit" name="nom-usu-edit" value="" placeholder="Cambiar Nombre Usuario">      
+                                </div>
+                            </div>
 
-                <div class="px-lg-5 py-lg-4 p-4 w-100 mt-4 align-self-center">
+                            <div class="area form-cont">
+                                <div>
+                                    <label for="edit-cont">Contraseña</label>  
+                                    <input type="password" class="form-control" id="cont-edit" name="cont-edit" value="" placeholder="Cambiar Contraseña">      
+                                </div>
+                            </div>
 
-                  <h1 class="text-center text-dark font-weight-bold mb-4">Registrarse</h1> <br>
+                            <div class="area form-corr-elec">
+                                <div>
+                                    <label for="edit-corr-elec">Correo Electronico</label>  
+                                    <input type="email" class="form-control" id="corr-elec-edit" name="corr-elec-edit" value="" placeholder="Cambiar Correo Electronico">      
+                                </div>
+                            </div>
 
-                  <form action="index.html" method="POST" name="datos-register" id="datos-register">
-                    <div class="formulario align-items-center">
+                            <div class="area form-tel">
+                                <div>
+                                    <label for="edit-tel">Teléfono</label>  
+                                    <input type="text" class="form-control" id="tel-edit" name="tel-edit" value="" placeholder="Cambiar Numero Telefono">      
+                                </div>
+                            </div>
 
-                      <div class="mb-3">
-                        <label for="reg-nom-usu"> Nombre Usuario <span class="text-danger">*</span> </label>
-                        <input type="text" class="form-control mb-2" id="reg-nom-usu" name="reg-nom-usu" value="" placeholder="Nombre Usuario"><br>
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="reg-cor-ele"> Correo Electrónico <span class="text-danger">*</span> </label>
-                        <input type="email" class="form-control mb-2" id="reg-correo-elec" name="reg-correo-elec" value="" placeholder="Correo Electrónico">
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="reg-cor-ele"> Confirmar Correo Electrónico <span class="text-danger">*</span> </label>
-                        <input type="email" class="form-control mb-2" id="reg-conf-correo-elec" name="reg-conf-correo-elec" value="" placeholder="Confirmar Correo Electrónico"><br>
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="reg-pas"> Contraseña <span class="text-danger">*</span> </label>
-                        <input type="password" class="form-control mb-2" id="reg-pass" name="reg-pass" value="" placeholder="Contraseña">
-                      </div>
-
-                      <div class="mb-3">
-                        <label for="reg-pas"> Confirmar Contraseña <span class="text-danger">*</span> </label>
-                        <input type="password" class="form-control mb-2" id="reg-conf-pass" name="reg-conf-pass" value="" placeholder="Confirmar Contraseña"><br>
-                      </div>
-
-                      <div class="mb-3 pb-3">
-                        <label for="reg-num-tel"> Numero Teléfono </label>
-                        <input type="text" class="form-control mb-2" id="num-tel" name="num-tel" value="" placeholder="Numero Teléfono"><br>
-                      </div>
-
-                      <div class="mb-2 text-center">
-                        <input class="boton btn btn-dark btn-lg bg-dark w-100 mb-2" type="submit" value="Registrarse">
-                      </div>
-
-                    </div>  
-                  </form>
-                  
-                </div>  
-              </div>
-            </div>
-          </div>  
+                            <div class="area form-boton">
+                                <div>
+                                    <input class="boton-actualizar boton btn btn-dark btn-lg bg-dark w-100" type="submit" value="Actualizar">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+           </div> 
         </section>
-
-
 
         <!--Pie de Pagina-->
         <footer id="piepagina" class="bg-dark text-center text-white">

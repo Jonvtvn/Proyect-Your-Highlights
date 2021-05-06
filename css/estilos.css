@@ -422,6 +422,7 @@ nav.navbar {
 .form-control, .boton{
     min-height: 2.525rem;
     margin: auto;
+
 }
 
 .color-row{
@@ -466,4 +467,39 @@ nav.navbar {
     .cont-formulario{
         margin-top: 0px;
     }
+}
+
+
+/*Editar Perfil*/
+
+.form-edit-perfil{
+    background-image: url(../img/imagen-modificar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.form-edit-perfil{
+    margin-top: 65px;
+}
+
+/*titulo*/
+.tit_mod_per{
+    margin-top: 60px;
+}
+
+.area{
+    margin-top: 25px;
+}
+.form-tel{
+    margin-bottom: 60px;
+}
+
+.form-container-blanco{
+    background-color: rgba(236, 236, 236, 0.97);
+    max-width: 680px;
+}
+
+.boton-actualizar{
+    margin-bottom: 100px;
 }
