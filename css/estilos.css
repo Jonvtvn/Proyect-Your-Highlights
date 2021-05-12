@@ -503,3 +503,12 @@ nav.navbar {
 .boton-actualizar{
     margin-bottom: 100px;
 }
+
+
+/* configuracion de label error */
+
+label.error{
+    color: #dc3545;
+}
+
+
