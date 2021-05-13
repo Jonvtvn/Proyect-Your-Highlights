@@ -57,7 +57,6 @@
                   equalTo: '#reg-pass'
                 },
               },
-
               messages:{
                 reg_nom_usu:{
                   required: 'Ingrese Nombre de Usuario',
@@ -136,31 +135,30 @@
         <section id="register">
           <div class="form-cont container-fluid">
             <div class="row color-row">
-
               <div class="columna-foto2 col-lg-6"> 
               </div>  
-
               <div class="col-lg-6 d-flex flex-column">
-
                 <div class="px-lg-5 py-lg-4 p-4 w-100 mt-4 align-self-center">
-
                   <h1 class="text-center text-dark font-weight-bold mb-4">Registrarse</h1> <br>
-
                   <form action="index.html" method="POST" name="datos-register" id="datos-register">
                     <div class="formulario align-items-center">
 
+
+                      <!--area de nombre usuario-->
                       <div class="mb-2 pb-1">
                         <label for="reg-nom-usu"> Nombre Usuario <span class="text-danger">*</span> </label>
                         <input type="text" class="form-control mb-2" id="reg-nom-usu" name="reg_nom_usu" value="" placeholder="Nombre Usuario" required maxlength="25" minlength="4">
                       </div>
 
 
+                      <!--area de nombre completo-->
                       <div class="mb-2 pb-1">
                         <label for="reg-nom-com"> Nombre Completo <span class="text-danger">*</span></label>
                         <input type="text" class="nom_completo form-control mb-2" id="reg-nom-com" name="reg_nom_com" value="" placeholder="Nombre Completo" required maxlength="40">
                       </div>
 
 
+                      <!--area de correo electronico-->
                       <div class="mb-2 ">
                         <label for="reg-cor-ele"> Correo Electrónico <span class="text-danger">*</span> </label>
                         <input type="email" class="form-control mb-2" id="reg-correo-elec" name="reg_correo_elec" value="" placeholder="Correo Electrónico" required>
@@ -170,7 +168,7 @@
                       </div>
 
 
-
+                      <!--area de contrasena-->
                       <div class="mb-2">
                         <label for="reg-pas"> Contraseña <span class="text-danger">*</span> </label>
                         <input type="password" class="form-control mb-2" id="reg-pass" name="reg_pass" value="" placeholder="Contraseña" required>
@@ -179,13 +177,13 @@
                         <input type="password" class="form-control mb-2" id="reg-conf-pass" name="reg_conf_pass" value="" placeholder="Confirmar Contraseña" required><br>
                       </div>
 
+
+                      <!--boton registrarse-->
                       <div class="mb-2 text-center">
                         <input class="boton btn btn-dark btn-lg bg-dark w-100 mb-2" type="submit" value="Registrarse">
                       </div>
-
                     </div>  
                   </form>
-                  
                 </div>  
               </div>
             </div>
@@ -226,7 +224,5 @@
             <a class="text-white" href="index.html#inicio">Your Highlights</a>
           </div>
         </footer> 
-
     </body>
-
 </html>
