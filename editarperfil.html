@@ -84,6 +84,15 @@
             });       
           });
         </script> 
+        <script>
+          function Mover(obj){
+            obj.style.backgroundBlendMode="lighten"
+          }
+
+          function MoverFuera(obj){
+            obj.style.backgroundBlendMode="darken"
+          }
+        </script>
 
         <!--Titulo ventana y icono-->
         <title>Your Highlights</title>
@@ -131,8 +140,10 @@
         <section id="modificar-perfil">
             <div class="con_completo container-fluid">
               <div class="row color-panel ">
-                <div class="columna_1 col-xl-4 col-lg-3 col-md-3 col-sm-2">
+
+                <div class="columna_1 col-xl-4 col-lg-3 col-md-3 col-sm-2" onmouseover="Mover(this)" onmouseout="MoverFuera(this)">
                 </div>  
+
                 <div class="columna-grande col-xl-4 col-lg-6 col-md-6 col-sm-8  col-sm-6 d-flex flex-column">
                   <div class="px-lg-5 py-lg-4 p-4 w-100 mt-4 align-self-center">
                     <h1 class="text-center text-dark font-weight-bold mb-4 mt-2 pt-1">Editar Perfil</h1>
@@ -166,7 +177,7 @@
                             <input type="email" class="form-control" id="corr-elec-edit" name="corr_elec_edit" value="" placeholder="Cambiar Correo Electronico" required>  
                         </div>
 
-                        <div class="mb-4 pb-4">
+                        <div class="mb-4 pb-5">
                           <label for="jug-favo">Juego Favorito</label>  
                           <input type="text" class="form-control" id="nom-jug-fav" name="nom_jug_fav" value="" placeholder="Ingrese su Juego Favorito" required maxlength="30">  
                         </div>
@@ -180,8 +191,10 @@
                     
                   </div>  
                 </div>
-                <div class="columna_2 col-xl-4 col-lg-3 col-md-3 col-sm-2">
+
+                <div class="columna_2 col-xl-4 col-lg-3 col-md-3 col-sm-2" onmouseover="Mover(this)" onmouseout="MoverFuera(this)">
                 </div>
+
               </div>
             </div>  
           </section>

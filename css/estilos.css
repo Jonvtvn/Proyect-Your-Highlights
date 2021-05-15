@@ -410,10 +410,20 @@ nav.navbar {
 
 
 
+
+
+
+
+
+
+
+
+
 :root{
     --dark-gris: #EFEFEF;
 
 }
+
 /*Formulario*/
 .form-cont{
     margin-top: 65px;
@@ -424,17 +434,19 @@ nav.navbar {
     margin: auto;
 
 }
-
+/*color y tamano de una columna*/
 .color-row{
     background-color: #F9FAFF;
     min-height: 776px;
 }
+/*imagen izquierda del login*/
 .columna-foto{
     background-image: url(../img/fondo-login.jpg);
     background-size: cover;
     background-position: center;
     min-height: 70px;
 }
+/*imagen izquierda del register*/
 .columna-foto2{
     background-image: url(../img/fondo-register.jpg);
     background-size: cover;
@@ -442,27 +454,20 @@ nav.navbar {
     min-height: 70px;
 }
 
-
-
-
-
+/*Configuraciones de tamanos para que sea responsibe a distintas resoluciones*/
 .formulario{
     padding-left: 110px;
     padding-right: 110px;
 }
-
 @media only screen and (max-width: 1700px) {
     .formulario{
         padding-right: 0px;
         padding-left: 0px;
     }
 }
-
-
 .cont-formulario{
     margin-top: 100px;
 }
-
 @media only screen and (max-width: 990px) {
     .cont-formulario{
         margin-top: 0px;
@@ -470,14 +475,19 @@ nav.navbar {
 }
 
 
+
 /*Editar Perfil*/
 .con_completo{
     margin-top: 65px;
     min-height: 776px;
 }
+
+/*Tamano (altura) de columa editar perfil*/
 .color-panel{
     min-height: 776px;
+    background-color: rgba(255, 255, 255, 1);
 }
+/*imagenes de fondo editar perfil*/
 .columna_1{
     background-image: url(../img/img-col-1.jpg);
     background-size: cover;
@@ -495,11 +505,8 @@ nav.navbar {
     background-blend-mode: darken;
 }
 
-.color-panel{
-    background-color: rgba(255, 255, 255, 1);
-}
-/* configuracion de label error */
 
+/* configuracion de label error */
 label.error{
     color: #dc3545;
 }
