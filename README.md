@@ -1,2 +1,6 @@
-# Exp2_NeiraPizarro_004D
-Experiencia 2 Programación Web
+# Your-Highlights
+Es una página web para compartir tus mejores jugadas en los videojuegos.
+
+# Proyecto realizado junto a mi compañero Armando Neira
+
+
