@@ -18,8 +18,9 @@ Proyecto realizado en conjunto con:
 ## 📸 Capturas del sitio
 
 A continuación se muestran algunas vistas del diseño de la página:
-
-![Vista 1](./img/2.png)
-![Vista 2](./img/3.png)
-![Vista 3](./img/4.png)
-![Vista 4](./img/6.png)
+![Vista 1](./img/1.png)
+![Vista 2](./img/2.png)
+![Vista 3](./img/3.png)
+![Vista 4](./img/4.png)
+![Vista 5](./img/5.png)
+![Vista 6](./img/6.png)
