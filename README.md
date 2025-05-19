@@ -10,3 +10,14 @@ Para la visualizacion de la Pagina solo debera:
 
 Proyecto realizado junto a mi compañero Armando Neira
 
+## 📸 Capturas del sitio
+
+A continuación se muestran algunas vistas del diseño de la página:
+
+![Vista 1](./img/1.png)
+![Vista 1](./img/2.png)
+![Vista 1](./img/3.png)
+![Vista 1](./img/4.png)
+![Vista 1](./img/5.png)
+![Vista 1](./img/6.png)
+
